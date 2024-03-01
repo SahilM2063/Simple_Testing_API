@@ -1,7 +1,5 @@
 const User = require("../models/userModel");
 const { isValidObjectId } = require("mongoose")
-
-
 // @desc Register new user
 // @route POST /api/user/register
 // @access Public
